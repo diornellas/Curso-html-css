@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+	text-align: justify;
+	background-color:  blueviolet;
+	color:  white;
+}
+
+.basico {
+	color: rgb(55, 213, 164);
+}
+
+.intermediario {
+	color: rgb(200, 0, 55);
+}
+
+.profissa {
+	color: rgb(1, 69, 213);
+}
