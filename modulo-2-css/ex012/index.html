@@ -3,13 +3,53 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pseudo elementos</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, helvetica, sans-serif;
+		}
+
+		a {
+			color: red;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+		
+		a:active {
+			color: yellow;
+		}
+
+		a::before {
+			content: '⇒ ';
+			color: darkred;
+		}
+
+		a::after {
+			content: ' ⇐';
+			text-decoration: none;
+			font-weight: normal;
+			color: darkred;
+		}
+
+		/* APRENDI NESSE CAPITULO QUE:
+		      # = ID
+		      . = CLASS
+		      : = PSEUDO CLASS
+		      :: = PSEUDO ELEMENT
+			  > = CHILDREN
+
+	</style>
 </head>
 <body>
 	<h1>Personalizando links</h1>
 	<ul>
-		<li href="https://github.com/diornellas">Repositório</li>
-		<li href="https://www.youtube.com/cursoemvideo">Canal do youtube</li>
-		<li href="https://www.curso em video.com">Site do curso em Video</li>
+		<li><a href="https://github.com/diornellas" target="_blank">Repositório</a></li>
+		<li><a href="https://www.youtube.com/cursoemvideo" target="_blank">Canal do youtube</a></li>
+		<li><a href="https://www.cursoemvideo.com" target="_blank">Site do curso em Video</a></li>
 	</ul>
 </body>
 </html>
