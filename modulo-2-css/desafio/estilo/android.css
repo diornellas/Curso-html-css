@@ -11,11 +11,9 @@
 
 :root {
 	--cor0: #ebe5c5;
-	--cor1: #83elad;
-	--cor2: #3ddc84;
-	--cor3: #2fa866;
-	--cor4: #1a5c37;
-	--cor5: #063dle;
+	--cor1: #3ddc84;
+	--cor2: #2fa866;
+	--cor3: #1a5c37;
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -23,6 +21,7 @@
 body {
 	background-color: var(--cor0);
 	font-family: var(--fonte-padrao);
+
 }
 
 header > h1 {
