@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
+/*
+#c5ebd6
+#83elad
+#3ddc84
+#2fa866
+#1a5c37
+#063dle
+*/
+
+:root {
+	--cor0: #ebe5c5;
+	--cor1: #83elad;
+	--cor2: #3ddc84;
+	--cor3: #2fa866;
+	--cor4: #1a5c37;
+	--cor5: #063dle;
+
+	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
 body {
-	background-color: #c5ebd6;
+	background-color: var(--cor0);
+	font-family: var(--fonte-padrao);
+}
+
+header > h1 {
+	color: var(--cor1);
+}
+
+p {
+	color: #1a5c37;
 }
