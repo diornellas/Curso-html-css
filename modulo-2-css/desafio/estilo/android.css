@@ -48,7 +48,10 @@ body {
 	background-color: var(--cor0);
 	font-family: var(--fonte-padrao);
 	
+}
 
+a.ext::after {
+	content: '\1F517';
 }
 
 header {
@@ -61,7 +64,8 @@ header > h1 {
 	color: white;
 	font-family: var(--fonte-destaque);
 	font-size: 3em;
-	padding-top: 20px;
+	font-weight: normal;
+	margin-bottom: 20px;
 	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
@@ -69,11 +73,12 @@ header > p {
 	font-family: var(--fonte-padrao);
 	color:  white;
 	font-size: 1.2em;
-	margin-top: 20px;
+	margin-bottom: 20px;
 	max-width: 500px;
 	padding: 0px 10px 0px 10px ;
 	margin: auto;
 	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
+
 }
 
 nav {
@@ -83,12 +88,13 @@ nav {
 }
 
 nav > a {
-	color: white;
+	color: var(--cor1);
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 5px ;
 	font-weight: bold;
 	transition-duration: 0.7s;
+
 }
 
 nav > a:hover {
@@ -110,12 +116,14 @@ main {
 main h1 {
 	color: var(--cor5);
 	font-family: var(--fonte-android);
+	font-weight: normal;
 }
 
 main h2 {
 	font-family: var(--fonte-android);
 	color: var(--cor4);
 	font-size: 1.3em;
+	font-weight: normal;
 	background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
@@ -156,8 +164,58 @@ main img.pequena {
 	margin: auto;
 }
 
+aside {
+	background-color: var(--cor1);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.281);
+}
+
+aside > h3 {
+	background-color: var(--cor4);
+	color: white;
+	font-weight: normal;
+	padding: 5px;
+	margin: -10px -10px 0px -10px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.videoEstilo {
+	background-color: var(--cor1);
+	margin:0px -20px 30px -20px;
+	padding: 20px;
+	padding-bottom: 55%;
+	position: relative;
+}
+
+div.videoEstilo > iframe {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+
+aside ul {
+	list-style-type: '\2714\0020\0020'; /* 0020 Serve para dar espaço sem quebra linha */
+	list-style-position: inside;
+	columns: 2
+}
+
 footer {
 	background-color: var(--cor5);
 	color: white;
 	text-align: center;
+	font-size: 0.8em;
+}
+
+footer a {
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: var(--cor1);
 }
