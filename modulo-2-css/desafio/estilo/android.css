@@ -200,7 +200,7 @@ aside > h3 {
 aside ul {
 	list-style-type: '\2714\0020\0020'; /* 0020 Serve para dar espaço sem quebra linha */
 	list-style-position: inside;
-	columns: 2
+	columns: 2;
 }
 
 footer {
