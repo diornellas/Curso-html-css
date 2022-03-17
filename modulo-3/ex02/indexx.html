@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="utf-8">
+   <title>Tabela</title>
+   <style type="text/css">
+      
+      table {
+         width: 500px;
+         border-collapse: collapse;
+      }
+
+      td, th {
+         border: solid black 1px;
+         padding: 10px;
+      }
+
+      thead, tfoot {
+         background-color: gray;
+         color: white;
+      }
+
+      td.num {
+         text-align: right;
+      }
+
+   </style>
+</head>
+<body>
+
+	<h1>Criando tabelas</h1>
+
+   <table>
+      <thead>
+         <tr>
+      	   <th>estado</th>
+      	   <th>população</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+         	<td>São paulo</td>
+         	<td class="num">450 710 899</td>
+         </tr>
+
+         <tr>
+            <td>Minas</td>
+            <td class="num">454 145 769</td>
+         </tr>
+
+         <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">711 131 568</td>
+         </tr>
+
+         <tr>
+            <td>Ceara</td>
+            <td class="num">445 487 518</td>
+         </tr>
+
+         <tr>
+            <td>Paraiba</td>
+            <td>554 876 154</td>
+         </tr>
+
+         <tr>
+            <td>Pernambuco</td>
+            <td class="num">454 655 789</td>
+         </tr>
+
+         <tr>
+            <td>Bahia</td>
+            <td>548 657 549</td>
+         </tr>
+      </tbody>
+
+      <tfoot>
+         <th>Total</th>
+         <th>00000000</th>
+      </tfoot>
+
+   </table>
+</body>
+</html>
