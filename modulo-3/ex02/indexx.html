@@ -19,6 +19,12 @@
          background-color: gray;
          color: white;
       }
+      caption {
+         font-size: 1.5em;
+         font-weight: bold;
+         padding: 5px;
+         background-color: lightgray;
+      }
 
       td.num {
          text-align: right;
@@ -33,9 +39,10 @@
    <table>
       <thead>
          <tr>
-      	   <th>estado</th>
-      	   <th>população</th>
+      	   <th scope="col">estado</th>
+      	   <th scope="col">população</th>
          </tr>
+         <caption>População das Unidades Federativas</caption>
       </thead>
       <tbody>
          <tr>
@@ -75,8 +82,8 @@
       </tbody>
 
       <tfoot>
-         <th>Total</th>
-         <th>00000000</th>
+         <th scope="col">Total</th>
+         <td>00000000</td>
       </tfoot>
 
    </table>
