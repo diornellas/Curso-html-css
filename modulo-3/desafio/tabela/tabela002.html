@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Desafio tabela 2</title>
+	<style type="text/css">
+		
+		table {
+			width: 600px;
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+		th {
+ 			border: 1px solid black;
+ 			padding: 6px;
+			background-color: gray;
+			color: white;
+		}
+
+
+		td {
+			border: 1px solid black;
+			padding: 5px;
+		}
+
+		.materia {
+			background-color: white;
+			color: black;
+			font-weight: bold;
+		}
+
+		.med {
+			text-align: left;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2" scope="col">Área</th>
+				<th rowspan="2" scope="col">Disciplina</th>
+				<th colspan="2" scope="colgroup">Notas</th>
+				<th rowspan="2" scope="col">Média</th>
+			</tr>
+
+			<tr>
+				<th scope="col">Nota 1</th>
+				<th scope="col">Nota 2</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="rowgroup" rowspan="4" class="materia">Exatas</th>
+				<td>Matemática</td>
+				<td>10</td>
+				<td>9</td>
+				<td>9.5</td>
+			</tr>
+
+			<tr>
+				<td>Física</td>
+				<td>8</td>
+				<td>9</td>
+				<td>8.5</td>
+			</tr>
+
+			<tr>
+				<td>Química</td>
+				<td>8</td>
+				<td>6</td>
+				<td>7</td>
+			</tr>
+
+			<tr>
+				<td>Biologia</td>
+				<td>9</td>
+				<td>7</td>
+				<td>8</td>
+			</tr>
+
+			<tr>
+				<th scope="row" colspan="4" class="med">Média de exatas</th>
+				<th>6.45</th>
+			</tr>
+
+			<tr>
+				<th scope="rowgroup" rowspan="2" class="materia">Humanas</th>
+				<td>História</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Geográfia</td>
+				<td>9</td>
+				<td>9</td>
+				<td>9</td>
+			</tr>
+
+			<tr>
+				<th scope="row" colspan="4" class="med">Média de Humanas</th>
+				<th>9.5</th>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
