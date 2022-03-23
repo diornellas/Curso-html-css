@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercicio tabela</title>
+	<style type="text/css">
+		
+		table {
+			width: 400px;
+			border-collapse: collapse;
+			margin: auto;
+		}
+
+		th, td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+
+		.n { 
+			background-color: chartreuse;
+		 }
+
+		 .grupo { 
+		 	background-color: red; 
+		 }
+
+	</style>
+</head>
+<body>
+	<table>
+
+		<colgroup>
+			<col class="n">
+			<col class="grupo" span="2">
+			<col class="p">
+		</colgroup>
+
+		<caption>Cadastro</caption>
+		
+		<tr>
+			<th scope="col">Nome</th>
+			<th scope="col">Sexo</th>
+			<th scope="col">Idade</th>
+			<th scope="col">Profissão</th>
+		</tr>
+
+		<tr>
+			<td>Mateus</td>
+			<td>M</td>
+			<td>22</td>
+			<td>Programador</td>
+		</tr>
+
+		<tr>
+			<td>Marcella</td>
+			<td>F</td>
+			<td>18</td>
+			<td>Enfermeira</td>
+		</tr>
+
+		<tr>
+			<td>Julia</td>
+			<td>F</td>
+			<td>20</td>
+			<td>Secretária</td>
+		</tr>
+
+		<tr>
+			<td>João</td>
+			<td>M</td>
+			<td>27</td>
+			<td>Vendedor</td>
+		</tr>
+
+	</table>
+</body>
+</html>
