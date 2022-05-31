@@ -1,2 +1,2 @@
 # Cursos
-Aqui está todos cursos Front-end do curso em video
+Aqui estão os cursos Front-end do curso em video
